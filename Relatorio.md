@@ -407,7 +407,7 @@ Funcionalidade: Processo de checkout
 
   Cenário: Validar resumo da compra
     Dado que preenchi os dados obrigatórios do checkout
-    Когда clico em "Continue"
+    Quando clico em "Continue"
     Então sou redirecionado para "/checkout-step-two.html"
       E o resumo da compra é exibido
 ```
